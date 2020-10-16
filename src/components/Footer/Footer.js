@@ -2,7 +2,9 @@ import React from 'react';
 import './footer.css';
 
 import logo from '../../logo.svg';
+// {elon_twitter: elonMask, flickr, twitter, website}
 const Footer = (props) => {
+	console.log(props);
 	return (
 		<footer className="footer" >
 			<img src={logo} alt="logo Space X" className="logo" />
